@@ -25,7 +25,7 @@ function Cart() {
             <div className='flex gap-6 items-center'>
                 <div   className='w-[200px] h-[200px] bg-black'  >
 
-                <img src="honey.jpg" alt="" className='w-[200px] h-[200px]' />
+                <img src="pp4.jpeg" alt="" className='w-[200px] h-[200px]' />
 
                 </div>
 
@@ -63,7 +63,7 @@ function Cart() {
             <div className='flex gap-6 items-center'>
                 <div   className='w-[200px] h-[200px] bg-black'  >
 
-                <img src="honey.jpg" alt="" className='w-[200px] h-[200px]' />
+                <img src="pp6.jpeg" alt="" className='w-[200px] h-[200px]' />
 
                 </div>
 

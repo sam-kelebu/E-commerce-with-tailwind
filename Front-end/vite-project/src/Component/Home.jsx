@@ -91,7 +91,7 @@ const Home = () => {
             impedit placeat veniam laboriosam quisquam magni commodi atque.
             Ipsa.
           </p>
-          <Link to="/product">
+          <Link to="/ProductPage">
             <button className="flex mx-auto justify-center items-center text-2xl bg-blue-600 ">
               Button
             </button>
