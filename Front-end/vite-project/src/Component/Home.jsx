@@ -91,7 +91,7 @@ const Home = () => {
             impedit placeat veniam laboriosam quisquam magni commodi atque.
             Ipsa.
           </p>
-          <Link to="/ProductPage">
+          <Link to="/ProductPagePage">
             <button className="flex mx-auto justify-center items-center text-2xl bg-blue-600 ">
               Button
             </button>
@@ -99,17 +99,17 @@ const Home = () => {
         </div>
         <div className="flex mx-auto justify-center items-center gap-3">
           <div className="">
-            <Link to="/product">
+            <Link to="/ProductPage">
               <img className="w-[20vh] " src="pp10.jpeg" alt="" />
             </Link>
           </div>
           <div className="">
-            <Link to="/product">
+            <Link to="/ProductPage">
               <img className="w-[20vh] " src="pp11.jpeg" alt="" />
             </Link>
           </div>
           <div className="">
-            <Link to="/product">
+            <Link to="/ProductPage">
               <img className="w-[20vh] " src="pp12.jpeg" alt="" />
             </Link>
           </div>
