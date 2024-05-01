@@ -2,6 +2,7 @@ import React from "react";
 import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import HeaderPage from './Header'
 import Footer from "./Component/Footer";
+import CatagoriesPage from "./Component/catagories"
 import HomePage from "./Component/Home";
 import CartPage from "./Component/Cart";
 import AboutPage from "./Component/About";
@@ -43,6 +44,7 @@ const App = () => {
             <Route path="/Cartpage" element={<CartPage />} />
             <Route path="/AboutPage" element={<AboutPage />} />
             <Route path="/ProductPage" element={<ProductPage />} />
+            <Route path="/catagories" element={<CatagoriesPage />} />
           </Routes>
           <Footer />
         </div>
