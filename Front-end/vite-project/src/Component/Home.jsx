@@ -46,7 +46,7 @@ const Home = () => {
         <h2 className="flex mx-auto items-center justify-center hover:underline text-3xl font-mono ">
           Our lattest arrival
         </h2>
-        <p className="flex mx-auto justify-center items-center py-4 ">
+        <p className="flex mx-auto justify-center items-center py-4 text-center sm:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing Numquam <br />{" "}
           &ensp; &ensp; &ensp;esse possimus optio quidem obcaecati vitae elit.
           <br />
@@ -84,14 +84,14 @@ const Home = () => {
           </h2>
         </div>
         <div className="flex-col mx-auto justify-center items-center py-4 ">
-          <p className="flex mx-auto justify-center items-center py-4">
+          <p className="flex mx-auto justify-center items-center py-4 text-center sm:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing Numquam <br />
             &ensp; &ensp; esse possimus optio quidem obcaecati vitae elit.
             <br />
             impedit placeat veniam laboriosam quisquam magni commodi atque.
             Ipsa.
           </p>
-          <Link to="/ProductPagePage">
+          <Link to="/ProductPage">
             <button className="flex mx-auto justify-center items-center text-2xl bg-blue-600 ">
               Button
             </button>
@@ -118,4 +118,5 @@ const Home = () => {
     </>
   );
 };
+
 export default Home;

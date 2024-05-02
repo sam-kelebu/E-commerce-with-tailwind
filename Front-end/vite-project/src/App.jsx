@@ -30,10 +30,10 @@ const App = () => {
                 </Link>
               </div>
               <div className="flex items-center">
-                <Link to="/Cartpage" className="ml-4 hover:bg-red-600">
+                <Link to="/Cartpage" className="ml-4 hover:bg-tex-3xl text-2xl ">
                   Cart
                 </Link>
-                <Link to="/AboutPage" className="ml-4">
+                <Link to="/AboutPage" className="ml-4 text-2xl ">
                   About
                 </Link>
               </div>
