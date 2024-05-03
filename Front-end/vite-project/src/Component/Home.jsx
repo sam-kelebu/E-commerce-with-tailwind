@@ -25,15 +25,15 @@ const Home = () => {
       </div>
       <br />
 
-      <div className="flex mx-auto justify-center items-center gap-8">
+      <div className="flex mx-auto justify-center items-center gap-2 ">
         <div className="flex">
           <Link to="/catagories">
-            <img className="w-[20vh] " src="pp1.jpeg" alt="" />
+            <img className="w-[20vh] h-[25vh] " src="pp1.jpeg" alt="" />
           </Link>
         </div>
         <div className="">
           <Link to="/catagories">
-            <img className="w-[10vh h-[30vh] " src="pp9.jpeg" alt="" />
+            <img className="w-[15vh] h-[30vh] " src="pp9.jpeg" alt="" />
           </Link>
         </div>
         <div className="">
@@ -60,20 +60,20 @@ const Home = () => {
       </div>
       <br />
       <br />
-      <div className="flex mx-auto justify-center items-center">
+      <div className="flex mx-auto justify-center gap-2 items-center">
         <div className="">
           <Link to="/latest">
-            <img className="w-[20vh] " src="pp7.jpeg" alt="" />
+            <img className="w-[20vh] h-[25vh] " src="pp7.jpeg" alt="" />
           </Link>
         </div>
         <div className="">
           <Link to="/latest">
-            <img className="w-[20vh] " src="pp6.jpeg" alt="" />
+            <img className="w-[20vh] h-[30vh] " src="pp6.jpeg" alt="" />
           </Link>
         </div>
         <div className="">
           <Link to="/latest">
-            <img className="w-[20vh] " src="pp5.jpeg" alt="" />
+            <img className="w-[20vh] h-[25vh] " src="pp5.jpeg" alt="" />
           </Link>
         </div>
       </div>
@@ -100,17 +100,17 @@ const Home = () => {
         <div className="flex mx-auto justify-center items-center gap-3">
           <div className="">
             <Link to="/ProductPage">
-              <img className="w-[20vh] " src="pp10.jpeg" alt="" />
+              <img className="w-[20vh] h-[25vh] " src="pp10.jpeg" alt="" />
             </Link>
           </div>
           <div className="">
             <Link to="/ProductPage">
-              <img className="w-[20vh] " src="pp11.jpeg" alt="" />
+              <img className="w-[20vh] h-[30vh] " src="pp11.jpeg" alt="" />
             </Link>
           </div>
           <div className="">
             <Link to="/ProductPage">
-              <img className="w-[20vh] " src="pp12.jpeg" alt="" />
+              <img className="w-[20vh] h-[25vh] " src="pp12.jpeg" alt="" />
             </Link>
           </div>
         </div>

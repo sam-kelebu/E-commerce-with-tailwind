@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import HeaderPage from './Header'
+// import Darki from "./Component/Darki";
 import Footer from "./Component/Footer";
-import CatagoriesPage from "./Component/catagories"
+import CatagoriesPage from "./Component/catagories";
 import HomePage from "./Component/Home";
 import CartPage from "./Component/Cart";
 import AboutPage from "./Component/About";
 import ProductPage from "./Component/product";
+import LatestPage from "./Component/latest";
 const App = () => {
   return (
     <>
@@ -29,8 +31,12 @@ const App = () => {
                   ቦኤዝ
                 </Link>
               </div>
+             
               <div className="flex items-center">
-                <Link to="/Cartpage" className="ml-4 hover:bg-tex-3xl text-2xl ">
+                <Link
+                  to="/Cartpage"
+                  className="ml-4 hover:bg-tex-3xl text-2xl "
+                >
                   Cart
                 </Link>
                 <Link to="/AboutPage" className="ml-4 text-2xl ">
@@ -45,6 +51,7 @@ const App = () => {
             <Route path="/AboutPage" element={<AboutPage />} />
             <Route path="/ProductPage" element={<ProductPage />} />
             <Route path="/catagories" element={<CatagoriesPage />} />
+            <Route path="/latest" element={<LatestPage />} />
           </Routes>
           <Footer />
         </div>

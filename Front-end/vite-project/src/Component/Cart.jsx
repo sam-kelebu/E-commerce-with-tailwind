@@ -19,10 +19,10 @@ function Cart() {
   };
 
   return (
-    <div className="mx-4 md:mx-10 my-10">
+    <div className="mx-4 md:mx-10 my-10 mt-[10vh]">
       {/* Top Section */}
       <div>
-        <h1 className="font-bold text-xl">Your Cart</h1>
+        <h1 className="font-bold text-2xl flex justify-center items-center">Your Cart</h1>
         <p>Now ready to checkout? Continue Shopping</p>
       </div>
 
